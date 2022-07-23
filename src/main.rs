@@ -68,8 +68,8 @@ impl Filesystem {
                 )
             }
             Generic { fstype, src, data } => (
-                Some(fstype.clone()),
                 Some(src.clone()),
+                Some(fstype.clone()),
                 MsFlags::empty(),
                 Some(data.clone()),
             ),
