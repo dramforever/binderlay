@@ -14,13 +14,13 @@ github:dramforever/binderlay
 
 ### Running `binderlay` as a flake
 
-```console
+```
 $ nix run github:dramforever/binderlay -- <arguments>
 ```
 
 ## What does it do?
 
-```console
+```
 $ binderlay <operations> [--] <program> <argv0> [<args...>]
 ```
 
